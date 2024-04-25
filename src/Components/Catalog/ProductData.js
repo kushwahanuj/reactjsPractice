@@ -1,0 +1,135 @@
+const ProductData = [
+    {
+        "id": 1,
+        "title": "Mobile1",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 1249,
+        "discountPercentage": 12.96,
+        "rating": 4.69,
+        "stock": 94,
+        "brand": "Apple",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+
+    },
+    {
+        "id": 2,
+        "title": "Mobile2",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 899,
+        "discountPercentage": 17.94,
+        "rating": 4.44,
+        "stock": 34,
+        "brand": "Apple",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+    },
+
+    {
+        "id": 3,
+        "title": "Mobile3",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 1249,
+        "discountPercentage": 15.46,
+        "rating": 4.09,
+        "stock": 36,
+        "brand": "Samsung",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+
+    },
+    {
+        "id": 4,
+        "title": "Mobile4",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 280,
+        "discountPercentage": 17.91,
+        "rating": 4.3,
+        "stock": 123,
+        "brand": "OPPO",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+    },
+    {
+        "id": 5,
+        "title": "Mobile5",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 499,
+        "discountPercentage": 10.58,
+        "rating": 4.09,
+        "stock": 32,
+        "brand": "Huawei",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+
+    },
+    {
+        "id": 8,
+        "title": "Mobile6",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 1249,
+        "discountPercentage": 12.96,
+        "rating": 4.69,
+        "stock": 94,
+        "brand": "Apple",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+
+    },
+    {
+        "id": 7,
+        "title": "Mobile7",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 899,
+        "discountPercentage": 17.94,
+        "rating": 4.44,
+        "stock": 34,
+        "brand": "Apple",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+    },
+
+    {
+        "id": 8,
+        "title": "Mobile8",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 1249,
+        "discountPercentage": 15.46,
+        "rating": 4.09,
+        "stock": 36,
+        "brand": "Samsung",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+
+    },
+    {
+        "id": 9,
+        "title": "Mobile9",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 280,
+        "discountPercentage": 17.91,
+        "rating": 4.3,
+        "stock": 123,
+        "brand": "OPPO",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+
+    },
+    {
+        "id": 10,
+        "title": "Mobile10",
+        "description": "New variant which goes beyond Galaxy to the Universe",
+        "price": 499,
+        "discountPercentage": 10.58,
+        "rating": 4.09,
+        "stock": 32,
+        "brand": "Huawei",
+        "category": "smartphones",
+        "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
+
+    }
+
+
+];
+
+export default ProductData;

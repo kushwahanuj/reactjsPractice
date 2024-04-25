@@ -1,0 +1,7 @@
+.btn {
+    text-align: center;
+}
+
+button.btn.btn-outline-primary.btn-sm {
+    margin: 10px;
+}

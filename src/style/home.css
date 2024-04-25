@@ -1,0 +1,21 @@
+.comman-sec {
+    margin: 40px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}

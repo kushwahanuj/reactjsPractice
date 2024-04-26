@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProductData from './ProductData';
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
@@ -22,13 +22,16 @@ export default function ProductsList() {
     //     navigate('/mobiles/product/' + productId);
     // };
 
+    const [search, setSearch] = useState('');
     return (
         <>
             <div className='container-productlist comman-sec'>
                 <h1>Tranding Products</h1>
                 <div className='productList'>
                     {
-                        ProductData.slice(0, 4).map((product, index) => (
+                        ProductData.slice(0, 4).filter(product => {
+                            return search.trim() === '' || product.title.toLowerCase().includes(search.toLowerCase()) || product.brand.toLowerCase().includes(search.toLowerCase());
+                        }).map((product, index) => (
                             <div className="card comman-sec" style={{ width: '18rem' }} key={index}>
                                 <img className="card-img-top" src={product.thumbnail} alt={product.title} />
                                 <div className="card-body">

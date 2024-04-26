@@ -41,7 +41,7 @@ export default function ContactData() {
                 </thead>
                 <tbody>
                     {formData.filter(data => {
-                        return search.trim() === '' || data.fullname.toLowerCase().includes(search.toLowerCase());
+                        return search.trim() === '' || data.fullname.toLowerCase().includes(search.toLowerCase()) || data.email.toLowerCase().includes(search.toLowerCase());
                     }).map((data, index) => (
                         <tr key={index}>
                             <td>{index + 1}</td>

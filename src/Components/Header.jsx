@@ -4,7 +4,6 @@ import logo from '../Assets/logo.jpeg';
 
 export default function Header() {
 
-
     return (
         <>
             <div className='container-fluid bg-light'>
